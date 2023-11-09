@@ -1,0 +1,24 @@
+/* Create your test CSS here */
+main {
+    border: 2px solid green;
+    height: 500px;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    border: 2px dashed purple;
+    width: 500px;
+    margin: auto;
+}
+
+.flex-container>div {
+    background-color: pink;
+    border: 1px solid red;
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+}
